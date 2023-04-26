@@ -31,7 +31,7 @@ const config: NuxtConfig = {
 	srcDir: 'src',
 	ssr: false,
 	supabase: {
-		key: process.env.SUPABASE_KEY || 'eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5reHN6c3BkemVpY2FwcHd2ZHZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODI0NzIxNjEsImV4cCI6MTk5ODA0ODE2MX0',
+		key: process.env.SUPABASE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5reHN6c3BkemVpY2FwcHd2ZHZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODI0NzIxNjEsImV4cCI6MTk5ODA0ODE2MX0.c212codusfkY9vk4j_V_n0-g4HEbl0_lVuXbkiGum3I',
 		url: process.env.SUPABASE_URL || 'https://nkxszspdzeicappwvdvk.supabase.co',
 	},
 	target: 'static',

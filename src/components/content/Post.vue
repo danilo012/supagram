@@ -27,7 +27,7 @@
 			{{ like }}
 			<ph-heart-bold height="24px" width="24px" />
 		</ui-button>
-		<!--
+		
 		<ui-button
 			v-if="post.author.id === $supaAuth.user().id"
 			@click="deletePost(post.id)"
@@ -37,7 +37,7 @@
 		>
 			<ph-trash-bold height="24px" width="24px" />
 		</ui-button>
-		-->
+		
 	</div>
 </template>
 

@@ -4,6 +4,7 @@
 		class="border p-6 rounded-3xl flex flex-col space-y-4"
 	>
 		<span class="font-semibold text-xl">Write a new post</span>
+		<span class="font-semibold text-xl">Powered by:Echozone</span>
 		<div class="flex flex-col space-y-2">
 			<label class="text-sm" for="content">Content</label>
 			<textarea

@@ -21,9 +21,7 @@
 						Messages
 					</ui-button>
 				</div>
-				
-<div class="flex items-center">
-      <iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="100%" height="500px" frameBorder="0" style="border: 0;"></iframe></div>
+
 	
 				<div class="flex items-center">
 					<ui-button variant="text" size="sm" icon to="/account">

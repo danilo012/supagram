@@ -4,7 +4,7 @@
 		class="border p-6 rounded-3xl flex flex-col space-y-4"
 	> 
 
-<iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="100%" height="500px" frameBorder="0" style="border: 0;"></iframe>
+<iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="100%" height="200px" frameBorder="0" style="border: 0;"></iframe>
 		<span class="font-semibold text-xl">Write a new post</span>
 		<span class="font-semibold text-xl">Powered by:Echozone</span>
 		<div class="flex flex-col space-y-2">

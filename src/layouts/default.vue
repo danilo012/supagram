@@ -4,7 +4,7 @@
 			<ui-container class="flex items-center justify-between py-4">
 				<nuxt-link class="flex items-center space-x-2" to="/">
 					<brand-isotype class="w-10" />
-					<span class="font-bold text-2xl">Supagram</span>
+					<span class="font-bold text-2xl">TIMECLACK</span>
 				</nuxt-link>
 				<!--
 				<div class="hidden md:flex items-center">

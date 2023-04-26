@@ -31,8 +31,8 @@ const config: NuxtConfig = {
 	srcDir: 'src',
 	ssr: false,
 	supabase: {
-		key: process.env.SUPABASE_KEY || '',
-		url: process.env.SUPABASE_URL || '',
+		key: process.env.SUPABASE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9',
+		url: process.env.SUPABASE_URL || 'https://nkxszspdzeicappwvdvk.supabase.co',
 	},
 	target: 'static',
 }

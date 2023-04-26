@@ -10,6 +10,7 @@
 
 		
 				<div class="hidden md:flex items-center">
+				
 					<ui-button variant="text" nav to="/">
 						Home
 					</ui-button>

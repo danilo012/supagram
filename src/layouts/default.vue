@@ -6,7 +6,7 @@
 					<brand-isotype class="w-10" />
 					<span class="font-bold text-2xl">TIMECLACK</span>
 				</nuxt-link>
-				<!--
+				
 				<div class="hidden md:flex items-center">
 					<ui-button variant="text" nav to="/">
 						Home
@@ -18,7 +18,7 @@
 						Messages
 					</ui-button>
 				</div>
-				-->
+				
 				<div class="flex items-center">
 					<ui-button variant="text" size="sm" icon to="/account">
 						<ph-user-bold height="24px" width="24px" />

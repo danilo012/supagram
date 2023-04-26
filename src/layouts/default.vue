@@ -31,7 +31,7 @@
 				<nuxt />
 			</ui-container>
 		</div>
-		<!--
+		
 		<div class="grid grid-cols-4 md:hidden bg-white shadow">
 			<ui-button class="flex flex-col !space-x-0" block nav to="/">
 				<ph-house-bold height="24px" width="24px" />
@@ -60,7 +60,7 @@
 				<span class="text-sm">Account</span>
 			</ui-button>
 		</div>
-		-->
+		
 		<ui-toasts />
 	</div>
 </template>

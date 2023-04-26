@@ -9,7 +9,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"noEmit": true,
-		"baseUrl": "https://nkxszspdzeicappwvdvk.supabase.co",
+		"baseUrl": "",
 		"typeRoots": ["./src/types"],
 		"paths": {
 			"~/*": ["./src/*"],

@@ -20,8 +20,8 @@ const config: NuxtConfig = {
 	plugins: ['~/plugins/supabase-auth'],
 	pwa: {
 		manifest: {
-			name: 'Supagram',
-			short_name: 'Supagram',
+			name: 'TIMECLACK',
+			short_name: 'Timeclack',
 			lang: 'en',
 		},
 	},

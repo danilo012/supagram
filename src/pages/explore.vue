@@ -7,8 +7,8 @@
   <title>replit</title>
   <link href="styles1.css" rel="stylesheet" type="text/css" />
 <body> 
-<!--spin id  #c7d5f4e64f843 ---->
-<!--mystery id #94d69eb07c839  --><!--scratch id  ---->
+
+
   <h> REWARDS SCHEDULE:
   <br>
   FEEE SPIN (DAILY) - 6:00AM to 9:00AM

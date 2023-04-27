@@ -14,10 +14,10 @@
 					<ui-button variant="text" nav to="/">
 						Home
 					</ui-button>
-					<ui-button variant="text" nav to="/explore">
+					<ui-button variant="text" nav to="/spin">
 						Explore
 					</ui-button>
-					<ui-button variant="text" nav to="/messages">
+					<ui-button variant="text" nav to="/MysteryBox">
 						Messages
 					</ui-button>
 				</div>
@@ -43,13 +43,13 @@
 			</ui-button>
 			<ui-button class="flex flex-col !space-x-0" block nav to="/explore">
 				<ph-compass-bold height="24px" width="24px" />
-				<span class="text-sm">Explore</span>
+				<span class="text-sm">Spin</span>
 			</ui-button>
 			<ui-button
 				class="flex flex-col !space-x-0"
 				block
 				nav
-				to="/messages"
+				to="/MysteryBox"
 			>
 				<ph-chats-circle-bold height="24px" width="24px" />
 				<span class="text-sm">Messages</span>

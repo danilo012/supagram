@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html>  
+<template>
+
+	<div class="flex flex-col max-w-md mx-auto py-4 space-y-4">
+
 <head>
   <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=c7d5f4e64f843' async='true'></script>
   <meta charset="utf-8">
@@ -26,6 +28,6 @@
    alt="" width="100%" height="700px" style="border:1.9px solid black">
    </marquee>
    </body>
-</html>
+</template>
 
 

@@ -14,11 +14,11 @@
 					<ui-button variant="text" nav to="/">
 						Home
 					</ui-button>
-					<ui-button variant="text" nav to="/spin">
+					<ui-button variant="text" nav to="/spin">spin
 						
 					</ui-button>
-					<ui-button variant="text" nav to="/mysterybox">
-						Messages
+					<ui-button variant="text" nav to="/mysterybox">mysterybox
+						
 					</ui-button>
 				</div>
 <iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="80%" height="100px" frameBorder="0" style="border: 0;"></iframe>
@@ -43,16 +43,16 @@
 			</ui-button>
 			<ui-button class="flex flex-col !space-x-0" block nav to="/spin">
 				<ph-compass-bold height="24px" width="24px" />
-				<span class="text-sm">Spin</span>
+				<span class="text-sm">spin</span>
 			</ui-button>
 			<ui-button
 				class="flex flex-col !space-x-0"
 				block
 				nav
-				to="/MysteryBox"
+				to="/mysterybox"
 			>
 				<ph-chats-circle-bold height="24px" width="24px" />
-				<span class="text-sm">Messages</span>
+				<span class="text-sm">mysterybox</span>
 			</ui-button>
 			<ui-button
 				class="flex flex-col !space-x-0 !px-0"

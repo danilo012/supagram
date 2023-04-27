@@ -14,7 +14,7 @@
 					<ui-button variant="text" nav to="/">
 						Home
 					</ui-button>
-					<ui-button variant="text" nav to="explore.html">
+					<ui-button variant="text" nav to="/explore">
 						Explore
 					</ui-button>
 					<ui-button variant="text" nav to="/messages">
@@ -41,7 +41,7 @@
 				<ph-house-bold height="24px" width="24px" />
 				<span class="text-sm">Home</span>
 			</ui-button>
-			<ui-button class="flex flex-col !space-x-0" block nav to="explore.html">
+			<ui-button class="flex flex-col !space-x-0" block nav to="/explore">
 				<ph-compass-bold height="24px" width="24px" />
 				<span class="text-sm">Explore</span>
 			</ui-button>

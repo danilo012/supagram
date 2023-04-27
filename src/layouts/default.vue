@@ -21,7 +21,7 @@
 						Messages
 					</ui-button>
 				</div>
-
+<iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="100%" height="100px" frameBorder="0" style="border: 0;"></iframe>
 	
 				<div class="flex items-center">
 					<ui-button variant="text" size="sm" icon to="/account">
@@ -35,7 +35,7 @@
 				<nuxt />
 			</ui-container>
 		</div>
-		<iframe src="https://ec8d4834-f5dd-4503-aa87-8f145bf6bd17.id.repl.co/" width="100%" height="100px" frameBorder="0" style="border: 0;"></iframe>
+		
 		<div class="grid grid-cols-4 md:hidden bg-white shadow">
 			<ui-button class="flex flex-col !space-x-0" block nav to="/">
 				<ph-house-bold height="24px" width="24px" />

@@ -4,11 +4,7 @@
 
 <head>
   <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=c7d5f4e64f843' async='true'></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="styles1.css" rel="stylesheet" type="text/css" />
-<body> 
+  </head>
 
 
   <h> REWARDS SCHEDULE:

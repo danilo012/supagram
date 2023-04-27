@@ -23,7 +23,7 @@
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGRskkOtko_aZKnn7ngwM6hjKBMGYhIe9s1_S5x46855l-MMBXGIvN70vwXRySVmWDrZfX1LuisZgHg-PLqZyKBxpdJ_OG5YYzQrg4CC9ECFMCcrSjTxlkQIhidV9V_TdmJaBd6NDQ_TrMPQ8yqFL95mtrsQRmjZZecGRvF9I997dEt82j74XYO9U67w/s225/IMG_20230419_133458.jpg" 
    alt="" width="100%" height="700px" style="border:1.9px solid black">
    </marquee>
-   </body>
+
 </template>
 
 

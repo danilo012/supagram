@@ -6,10 +6,10 @@
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{your-app-id}',
+      appId      : '276067064776740',
       cookie     : true,
       xfbml      : true,
-      version    : '{api-version}'
+      version    : 'v16.0'
     });
       
     FB.getLoginStatus(function(response) {

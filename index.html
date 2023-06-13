@@ -1,0 +1,540 @@
+<html>
+ <head><style type="text/css" id="dcoder_stylesheet">/*! Reset: normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden],
+template {
+  display: none
+}
+
+a {
+  background-color: transparent
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b,
+strong {
+  font-weight: 700
+}
+
+dfn {
+  font-style: italic
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -.5em
+}
+
+sub {
+  bottom: -.25em
+}
+
+img {
+  border: 0
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 1em 40px
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+}
+
+pre {
+  overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0
+}
+
+button {
+  overflow: visible
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+input {
+  line-height: normal
+}
+
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  border: 0;
+  padding: 0
+}
+
+textarea {
+  overflow: auto
+}
+
+optgroup {
+  font-weight: 700
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td,
+th {
+  padding: 0
+}
+
+
+/* Basic */
+
+html {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+
+body {
+  background: #fff;
+  margin: auto;
+  color: #333;
+}
+
+
+/* Font family */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+/* Button */
+
+a {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  transition: all 200ms ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  /* Webkit Hardware Acceleration */
+  -webkit-backface-visibility: hidden;
+  /* Animation fix */
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  border: 2px solid #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #333;
+  color: #fff;
+  width: 60%;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #333;
+}
+
+#timer {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.copyright {
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+
+/* Animation */
+
+.animated {
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
+  -ms-animation-duration: 1.2s;
+  -o-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+.animated.fast {
+  -webkit-animation-duration: 800ms;
+  -moz-animation-duration: 800ms;
+  -ms-animation-duration: 800ms;
+  -o-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 1.4s;
+  -moz-animation-duration: 1.4s;
+  -ms-animation-duration: 1.4s;
+  -o-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+/* Layout: center box */
+mm
+#logo-box {
+  text-align: center;
+  padding: 30px;n
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+
+/* Desktop only */
+
+@media (min-width: 481px) {
+  #logo-box {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 48%;
+    width: 400px;
+    margin-left: -230px;
+    height: 440px;
+    margin-top: -250px;
+    font-size: 20px;
+    border: 3px solid #999;
+    box-shadow: 6px 6px 0px #333;
+  }
+  h1 {
+    font-size: 36px;
+  }
+}
+
+.icon {
+  background: url(https://currentrewards.us/images/splash-working-1be55642.gif) no-repeat center center;    height: 200px;
+  margin: auto;
+  width: 100%;
+}</style></head>
+ <body>
+  <marquee>
+   YOU ARE STREAMING AUTOMATICALLY VIA HIGHLIGHTS RADIO UNDER UMBRELLA STATION OF CHERNESTSTARDREAMER 
+  </marquee> <!--OnlineRadioBox Player widget--> <!--chatbox--> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <title>replit</title> 
+  <link href="style.css" rel="stylesheet" type="text/css"> <!--OnlineRadioBox Playlist widget--> 
+  <div class="orbL " id="orb_pl_18b26ce2d412d1e3"> 
+   <style media="screen">
+      .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left}.orbL br,.orbL>br{display:none!important;}.orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbL br,.orbL>br{display:none!important}.orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}.orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(47,99,160,.2));filter:drop-shadow(2px 2px 0 rgba(47,99,160,.2))}.orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important}.orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}.orbLtn{display:block;margin-right:54px!important;font-size:14px!important;font-weight:bold;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important}.orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important;background-image:none;float:none!important;height: auto!important}.orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;border:none!important}.orbILi>a:hover,.orbILi>span:hover{background:transparent!important}.orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em}.orbILi+li{border-style:solid!important;border-width:1px 0 0!important}.orbILs{margin:0!important;padding:0!important;list-style:none!important;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;border-style:solid!important;border-width:0 0 1px!important}.orbILsi{display:inline-block!important;margin:0!important;padding:0!important;height:32px!important;overflow:hidden;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;-webkit-box-flex:1;flex:1 1 auto;-webkit-align-self:baseline;-ms-flex-item-align:baseline;align-self:baseline;text-align:center;font-size:11px!important;float:none!important}.orbILsi + li{border-style:solid!important;border-width:0 0 0 1px!important}.orbILsi > a,.orbILsi > span{display:block;line-height:32px!important;text-decoration:none!important;-webkit-transition:color .125s;transition:color .125s}
+  /* Compact */
+  .cmpct .orbILi>a,.cmpct .orbILi>span{line-height:24px!important;font-size:12px!important}
+  .cmpct .orbILi>a>time,.cmpct .orbILi>span>time{font-size:11px!important}
+  </style> 
+   <style media="screen" id="orb_pl_18b26ce2d412d1e3_settings">/*user customization*/.orbL{width:auto}.orbL{border-style: solid; border-color:#2f63a0 !important;border-radius:5px;background:#fff !important}.orbLt{background-color:#2f63a0 !important}/*common list title bg*/.orbLtn{color:#ffffff !important}/*common list title color*/.orbIL{height:172px}/*track list height: user height, e.g. 250px - 45px(title) - [33px(schedule, if enabled)] */.orbIL,.orbILs{background:#000000 !important} /* list bg, schedule bg */.orbILi>a,.orbILi>a:visited,.orbILi>span,.orbILi>a:hover>time,.orbILi.a>a>time,.orbILi.a>span>time{color:#ffffff !important} /*item color, hover-item time color, active-item time color */.orbILi>a:hover,.orbILi.a>a,.orbILi.a>span,.orbILsi>a:hover,.orbILsi>span{color:#f07700 !important} /*hover-item color, active-item color, schedule hover-item color, schedule active-item color*/.orbILi>a>time,.orbILi>span>time,.orbILsi>a{color:#aeaeae !important}/*item time color, schedule item color*/.orbILi.a,.orbILsi.a{background:#f3f3f3 !important} /* active-item bg, schedule active-item bg */.orbILs,.orbILi+li,.orbILsi+li{border-color:#eeeeee !important}/* item border color, schedule border color */.orbILs{display: flex}</style> <a class="orbLh" href="https://onlineradiobox.com/ph/" title="Listen on Online Radio Box!" target="_blank"><img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!"></a> <a class="orbLt" href="https://onlineradiobox.com/ph/highlights/" target="_blank"> <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/0/126880.v1.png" alt="Highlights Radio"><span class="orbLtn" style="display: none;">Highlights Radio</span> </a> 
+   <script>
+      var orbpl_w = orbpl_w || { lang: "en-us" };
+      orbpl_w.cmd = orbpl_w.cmd || [];
+      orbpl_w.cmd.push(function() {
+        orbpl_w.init("orb_pl_18b26ce2d412d1e3");
+      });
+      var s, t; s = document.createElement('script'); s.type = 'text/javascript';
+      
+        s.src = "//ecdn.onlineradiobox.com/js/plwidget.min.a1649ec0.js";
+      
+      t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+    </script>
+  </div> <!--OnlineRadioBox Playlist widget--> 
+  <title>Title of the document</title> 
+  <style>
+      #blink {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Sans-serif;
+        color: #1c87c9;
+        transition: 1.5s;
+      }
+    </style> 
+    <div class="icon"></div> 
+  <p id="blink">TO START YOUR RADIOSTREAMING and EARNINGS KINDLY TYPE YOUR MESSAGE OR REQUESTED SONG USING OUR CHATBOX BELOW 👇</p> 
+  <script type="text/javascript">
+      var blink = document.getElementById('blink');
+      setInterval(function() {
+        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+      }, 1000);
+    </script> <iframe src="https://my.cbox.ws/HIGHLIGHTSRADIO" allow="microphone; camera; fullscreen; autoplay; display-capture" style="width: 100%; height: 500px; overflow: hidden; border: 0px none; background-color: transparent;"></iframe> <!--iframe src="https://exquisite-daffodil-d5cdad.netlify.app/" width="100%" height="500px" frameBorder="1" style="border: 0;"></iframe----> 
+  <script src="script.js"></script> <!--
+
+  This script places a badge on your repl's full-browser view back to your repl's cover
+
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+
+  teal, blue, blurple, magenta, pink!
+
+  --> <!-- Audio -->
+  <audio controls style="display:none;" loop id="audio"> 
+   <source id="audio-source" src="http://us.everestcast.com:2070/;?type=http&amp;nocache=1684655416"> 
+  </audio> 
+  <script>
+
+window.addEventListener("box1",play);
+
+function play(){ document.getElementById("audio").play();  
+
+               }
+
+                 </script> <!-- Audio --> 
+  <audio controls style="display:none;" loop id="audio"> 
+   <source id="audio-source" src=""> 
+  </audio> 
+  <script>
+
+window.addEventListener("mouseover",play);
+
+window.addEventListener("click",play);
+
+function play(){ document.getElementById("audio").play();  
+
+               } 
+
+                 </script> <!-- Redirection Counter --> 
+  <script type="text/javascript">
+  var count = 40; // Timer
+  var redirect = ""; // Target URL
+
+  function countDown() {
+    var timer = document.getElementById("timer"); // Timer ID
+    if (count > 0) {
+      count--;
+      timer.innerHTML = " " + count + " seconds."; // Timer Message
+      setTimeout("countDown()", 1000);
+    } else {
+      window.location.href = redirect;
+    }
+  }
+</script> 
+  <div id="master-wrap"> 
+   <div id="logo-box"> 
+    <div class="animated fast fadeInUp">  
+    </div> 
+    <div class="footer animated slow fadeInUp"> 
+     <p id="timer"> <script type="text/javascript">
+          countDown();
+        </script> </p> 
+     <p class="copyright">© echozone</p> 
+    </div> 
+   </div> <!-- /#logo-box --> 
+  </div> <!-- /#master-wrap --> 
+ 
+</body></html>
